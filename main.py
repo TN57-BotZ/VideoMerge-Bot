@@ -56,9 +56,9 @@ async def start_handler(bot: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Leech & Mirror Zone", url="https://t.me/TN57_Leech")],
-                [InlineKeyboardButton("Bot Channel", url="https://t.me/TN57_Botz"),
-                 InlineKeyboardButton("Support Group", url="https://t.me/TN57_BotzSupport")],
+                [InlineKeyboardButton("⚡Leech & Mirror Zone⚡", url="https://t.me/TN57_Leech")],
+                [InlineKeyboardButton("🎊Bot Channel🎊", url="https://t.me/TN57_Botz"),
+                 InlineKeyboardButton("💢Support Group💢", url="https://t.me/TN57_BotzSupport")],
                 [InlineKeyboardButton("Open Settings", callback_data="openSettings")],
                 [InlineKeyboardButton("Close", callback_data="closeMeh")]
             ]
@@ -104,7 +104,7 @@ async def videos_handler(bot: Client, m: Message):
                 FormtDB.update({m.from_user.id: media.file_name.rsplit(".", 1)[-1].lower()})
             await asyncio.sleep(Config.TIME_GAP)
             if len(QueueDB.get(m.from_user.id)) == Config.MAX_VIDEOS:
-                MessageText = "Okay Unkil, Now Just Press **Merge Now** Button Plox!"
+                MessageText = "Okay DAW, Now Just Press **Merge Now** Button Plox!"
             markup = await MakeButtons(bot, m, QueueDB)
             await editable.edit(text="Your Video Added to Queue!")
             reply_ = await m.reply_text(
@@ -363,7 +363,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Leech & Mirror Zone", url="https://t.me/TN57_Leech"), InlineKeyboardButton("Bot Channel", url="https://t.me/TN57_Botz")], [InlineKeyboardButton("Support Group", url="https://t.me/TN57_BotzSupport")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡Leech & Mirror Zone⚡", url="https://t.me/TN57_Leech"), InlineKeyboardButton("🎊Bot Channel🎊", url="https://t.me/TN57_Botz")], [InlineKeyboardButton("💢Support Group💢", url="https://t.me/TN57_BotzSupport")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
