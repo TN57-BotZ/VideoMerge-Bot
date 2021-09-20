@@ -30,9 +30,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("⚡LEECH & MIRROR⚡", url="https://t.me/TN57_Leech")],
-                        [InlineKeyboardButton("🎊TN57 BOTZ🎊", url="https://t.me/TN57_Botz"),
-                         InlineKeyboardButton("💢SUPPORT💢", url="https://t.me/TN57_BotzSupport")]
+                        [InlineKeyboardButton("LEECH & MIRROR", url="https://t.me/TN57_Leech")],
+                        [InlineKeyboardButton("TN57 BOTZ", url="https://t.me/TN57_Botz"),
+                         InlineKeyboardButton("SUPPORT", url="https://t.me/TN57_BotzSupport")]
                     ]
                 )
             )
@@ -51,9 +51,9 @@ async def UploadVideo(bot: Client, cb: CallbackQuery, merged_vid_path: str, widt
                 ),
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("⚡LEECH & MIRROR⚡", url="https://t.me/TN57_Leech")],
-                        [InlineKeyboardButton("🎊TN57 BOTZ🎊", url="https://t.me/TN57_Botz"),
-                         InlineKeyboardButton("💢SUPPORT💢", url="https://t.me/TN57_BotzSupport")]
+                        [InlineKeyboardButton("LEECH & MIRROR", url="https://t.me/TN57_Leech")],
+                        [InlineKeyboardButton("TN57 BOTZ", url="https://t.me/TN57_Botz"),
+                         InlineKeyboardButton("SUPPORT", url="https://t.me/TN57_BotzSupport")]
                     ]
                 )
             )
