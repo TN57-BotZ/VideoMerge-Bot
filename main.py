@@ -363,7 +363,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡Leech & Mirror⚡", url="https://t.me/TN57_Leech"), InlineKeyboardButton("🎊TN57 BOtZ🎊", url="https://t.me/TN57_Botz")], [InlineKeyboardButton("💢Support💢", url="https://t.me/TN57_BotzSupport")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡LEECH & MIRROR⚡", url="https://t.me/TN57_Leech"), InlineKeyboardButton("🎊TN57 BOTZ🎊", url="https://t.me/TN57_Botz")], [InlineKeyboardButton("💢SUPPORT💢", url="https://t.me/TN57_BotzSupport")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
