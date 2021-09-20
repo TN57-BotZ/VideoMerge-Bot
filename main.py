@@ -343,7 +343,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("🤖Join Updates Channel🥺", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshFsub")
@@ -450,7 +450,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 await asyncio.sleep(Config.TIME_GAP)
             except:
                 pass
-        await cb.message.edit("Extracting Video Data ...")
+        await cb.message.edit("Extracting Video Data.Oops! Forgot To Rename. Don't Rename Here @TN57_Renamer_Bot")
         duration = 1
         width = 100
         height = 100
