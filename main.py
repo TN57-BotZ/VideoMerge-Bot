@@ -363,7 +363,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         await cb.message.edit(
             text=Config.START_TEXT,
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡Leech & Mirror Zone⚡", url="https://t.me/TN57_Leech"), InlineKeyboardButton("🎊Bot Channel🎊", url="https://t.me/TN57_Botz")], [InlineKeyboardButton("💢Support Group💢", url="https://t.me/TN57_BotzSupport")]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⚡Leech & Mirror⚡", url="https://t.me/TN57_Leech"), InlineKeyboardButton("🎊TN57 BOtZ🎊", url="https://t.me/TN57_Botz")], [InlineKeyboardButton("💢Support💢", url="https://t.me/TN57_BotzSupport")]]),
             disable_web_page_preview=True
         )
     elif "showThumbnail" in cb.data:
@@ -450,7 +450,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 await asyncio.sleep(Config.TIME_GAP)
             except:
                 pass
-        await cb.message.edit("Forgot To Rename. Don't Worry RENAME Here **@TN57_Renamer_Bot**🎊")
+        await cb.message.edit("UPLOAD SOON...Forgot To Rename. Don't Worry RENAME Here **@TN57_Renamer_Bot**🎊")
         duration = 1
         width = 100
         height = 100
