@@ -23,7 +23,7 @@ class Config(object):
 Hi DAW, I am Video Merge Bot!
 I can Merge Multiple Videos in One Video. Video Formats should be same.
 
-Made by TN57_BOTZ 💖
+Made by **@TN57_BotZ 💖**
 """
     CAPTION = "Video Merged by @{}\n\nMade by @TN57_BOTZ"
     PROGRESS = """
